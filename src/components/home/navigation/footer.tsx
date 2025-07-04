@@ -16,10 +16,10 @@ const Footer = () => {
                         <Icons.logo className="w-7 h-7" />
                     </div>
                     <p className="text-muted-foreground mt-4 text-sm text-start">
-                        Build beautiful, functional websites, without writing code
+                        AI-powered satellite solutions for monitoring environmental change
                     </p>
                     <span className="mt-4 text-neutral-200 text-sm flex items-center">
-                        Made in India with
+                        Made with precision
                         <Heart className="w-3.5 h-3.5 ml-1 fill-primary text-primary" />
                     </span>
                 </div>
@@ -28,54 +28,54 @@ const Footer = () => {
                     <div className="md:grid md:grid-cols-2 md:gap-8">
                         <div className="">
                             <h3 className="text-base font-medium text-white">
-                                Product
+                                Solutions
                             </h3>
                             <ul className="mt-4 text-sm text-muted-foreground">
                                 <li className="mt-2">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Features
+                                        Flood Monitoring
                                     </Link>
                                 </li>
                                 <li className="mt-2">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Pricing
+                                        Methane Detection
                                     </Link>
                                 </li>
                                 <li className="mt-2">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Testimonials
+                                        Renewable Energy
                                     </Link>
                                 </li>
                                 <li className="mt-2">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Integration
+                                        Land Assessment
                                     </Link>
                                 </li>
                             </ul>
                         </div>
                         <div className="mt-10 md:mt-0 flex flex-col">
                             <h3 className="text-base font-medium text-white">
-                                Integrations
+                                Technology
                             </h3>
                             <ul className="mt-4 text-sm text-muted-foreground">
                                 <li className="">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Facebook
+                                        Satellite Network
                                     </Link>
                                 </li>
                                 <li className="mt-2">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Instagram
+                                        AI Models
                                     </Link>
                                 </li>
                                 <li className="mt-2">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Twitter
+                                        Real-time Analytics
                                     </Link>
                                 </li>
                                 <li className="mt-2">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        LinkedIn
+                                        API Access
                                     </Link>
                                 </li>
                             </ul>
@@ -89,7 +89,7 @@ const Footer = () => {
                             <ul className="mt-4 text-sm text-muted-foreground">
                                 <li className="mt-2">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Blog
+                                        Documentation
                                     </Link>
                                 </li>
                                 <li className="mt-2">
@@ -121,7 +121,7 @@ const Footer = () => {
                                 </li>
                                 <li className="mt-2">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Terms & Conditions
+                                        Terms of Service
                                     </Link>
                                 </li>
                             </ul>
@@ -133,7 +133,7 @@ const Footer = () => {
 
             <div className="mt-8 border-t border-border/40 pt-4 md:pt-8 md:flex md:items-center md:justify-between w-full">
                 <p className="text-sm text-muted-foreground mt-8 md:mt-0">
-                    &copy; {new Date().getFullYear()} Astra AI INC. All rights reserved.
+                    &copy; {new Date().getFullYear()} RIFFAI. All rights reserved.
                 </p>
             </div>
 

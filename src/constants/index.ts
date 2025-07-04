@@ -3,143 +3,143 @@ import { Icons } from "@/components";
 export const perks = [
     {
         icon: Icons.auth,
-        title: "Sign Up",
-        info: "Create your free account to get started with Astra.",
+        title: "Connect",
+        info: "Access our satellite network and AI-powered environmental monitoring platform.",
     },
     {
         icon: Icons.customize,
-        title: "Customize",
-        info: "Choose a template and customize it to fit your needs.",
+        title: "Analyze",
+        info: "Get real-time insights from 20+ satellites and 800+ environmental parameters.",
     },
     {
         icon: Icons.launch,
-        title: "Launch",
-        info: "Publish your website and share it with the world.",
+        title: "Act",
+        info: "Make informed decisions with 97% accurate environmental intelligence.",
     },
 ];
 
 export const features = [
     {
         icon: Icons.bolt,
-        title: "Fast Setup",
-        info: "Get your website up and running in minutes with our intuitive AI-powered builder.",
+        title: "Real-Time Monitoring",
+        info: "Continuous environmental surveillance with instant alerts and updates from our satellite network.",
     },
     {
         icon: Icons.palette,
-        title: "Customizable Templates",
-        info: "Choose from a variety of stunning templates and customize them to suit your brand.",
+        title: "AI-Powered Analysis",
+        info: "Advanced machine learning models process 800+ parameters for unprecedented accuracy.",
     },
     {
         icon: Icons.seo,
-        title: "SEO Optimized",
-        info: "Built-in SEO features ensure your website ranks well on search engines.",
+        title: "Predictive Intelligence",
+        info: "Forecast environmental changes and potential risks before they impact your operations.",
     },
     {
         icon: Icons.monitor,
-        title: "Responsive Design",
-        info: "Your website will look great on any device, from desktops to mobile phones.",
+        title: "Global Coverage",
+        info: "Worldwide environmental monitoring through our integrated satellite constellation.",
     },
     {
         icon: Icons.shop,
-        title: "E-Commerce Ready",
-        info: "Start selling online with our e-commerce features and integrations.",
+        title: "Custom Solutions",
+        info: "Tailored environmental monitoring solutions for your specific industry needs.",
     },
     {
         icon: Icons.server,
-        title: "Secure Hosting",
-        info: "Enjoy peace of mind with secure and reliable hosting for your website.",
+        title: "Secure Data",
+        info: "Enterprise-grade security and reliable data delivery for mission-critical decisions.",
     },
 ];
 
 export const pricingCards = [
     {
-        title: "Starter",
-        description: "Perfect for trying out plura",
+        title: "Explorer",
+        description: "Perfect for research and small projects",
         price: "Free",
         duration: "",
         highlight: "Key features",
-        buttonText: "Start for free",
-        features: ["Limited projects", "1 Team member", "Basic features"],
+        buttonText: "Start monitoring",
+        features: ["Limited satellite access", "Basic analytics", "Community support"],
         priceId: "",
     },
     {
-        title: "Unlimited Saas",
-        description: "The ultimate agency kit",
-        price: "$199",
+        title: "Professional",
+        description: "Advanced monitoring for enterprises",
+        price: "$2,999",
         duration: "month",
-        highlight: "Key features",
-        buttonText: "Upgrade to Pro",
-        features: ["Unlimited projects", "5 Team members", "Advanced design tools", "Customizable domain"],
-        priceId: "price_1OYxkqFj9oKEERu1KfJGWxgN",
+        highlight: "Everything in Explorer, plus",
+        buttonText: "Contact Sales",
+        features: ["Full satellite constellation", "Real-time alerts", "Custom analytics", "Priority support"],
+        priceId: "price_professional",
     },
     {
         title: "Enterprise",
-        description: "For serious agency owners",
-        price: "$399",
-        duration: "month",
-        highlight: "Everything in Starter, plus",
-        buttonText: "Upgrade to Enterprise",
-        features: ["Unlimited projects", "Unlimited Team members", "Custom branding", "Priority support (24/7)"],
-        priceId: "price_1OYxkqFj9oKEERu1NbKUxXxN",
+        description: "Complete environmental intelligence",
+        price: "Custom",
+        duration: "",
+        highlight: "Everything in Professional, plus",
+        buttonText: "Schedule Demo",
+        features: ["Dedicated infrastructure", "Custom integrations", "24/7 support", "On-site training"],
+        priceId: "price_enterprise",
     },
 ];
 
-export const bentoCards = [
+export const projects = [
     {
-        title: 'Start with Inspiration',
-        info: 'Browse our vast library of pre-designed templates or upload your own images.',
-        imgSrc: '/assets/bento-1.svg', // Lightbulb or Inspiration icon
-        alt: 'Inspiration for website creation'
+        title: "Flood Warning & Water Management",
+        description: "Advanced flood prediction and water resource monitoring using NDWI satellite analysis.",
+        image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg",
+        alt: "Flood monitoring and water management system"
     },
     {
-        title: 'AI Assists Your Vision',
-        info: 'Our intelligent AI tailors suggestions and functionalities based on your goals.',
-        imgSrc: '/assets/bento1.svg', // AI Assistant icon
-        alt: 'AI website building assistant'
+        title: "Illegal Landfill & Methane Detection",
+        description: "Automated detection of unauthorized waste sites and methane emission monitoring.",
+        image: "https://images.pexels.com/photos/2827392/pexels-photo-2827392.jpeg",
+        alt: "Landfill and methane detection technology"
     },
     {
-        title: 'Drag & Drop Customization',
-        info: 'Effortlessly personalize your website with our intuitive drag-and-drop editor.',
-        imgSrc: '/assets/bento1.svg', // Drag and Drop icon or hand editing a website
-        alt: 'Website customization with drag and drop'
+        title: "Renewable Energy Site Automation",
+        description: "Optimizing wind and solar installations through satellite-based site analysis.",
+        image: "https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg",
+        alt: "Renewable energy site monitoring"
     },
     {
-        title: 'Launch & Shine Online',
-        info: 'Publish your website with a single click and take your brand to the world.',
-        imgSrc: '/assets/bento1.svg', // Rocket launching or website going live
-        alt: 'Website launch and publication'
+        title: "Erosion & Land Damage Assessment",
+        description: "Comprehensive land degradation monitoring and erosion pattern analysis.",
+        image: "https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg",
+        alt: "Land erosion and damage assessment"
     },
 ];
 
 export const reviews = [
     {
-        name: "Jack",
-        username: "@jack",
-        body: "I've never seen anything like this before. It's amazing. I love it.",
+        name: "Dr. Sarah Chen",
+        username: "@sarahchen_climate",
+        body: "RIFFAI's accuracy in predicting flood events has been game-changing for our disaster response planning.",
     },
     {
-        name: "Jill",
-        username: "@jill",
-        body: "I don't know what to say. I'm speechless. This is amazing.",
+        name: "Marcus Rodriguez",
+        username: "@marcus_energy",
+        body: "The renewable energy site analysis helped us optimize our solar farm placement, increasing efficiency by 23%.",
     },
     {
-        name: "John",
-        username: "@john",
-        body: "I'm at a loss for words. This is amazing. I love it.",
+        name: "Prof. Elena Volkov",
+        username: "@elena_earth",
+        body: "Unprecedented precision in environmental monitoring. RIFFAI is revolutionizing how we study climate change.",
     },
     {
-        name: "Jane",
-        username: "@jane",
-        body: "I'm at a loss for words. This is amazing. I love it.",
+        name: "James Mitchell",
+        username: "@james_sustain",
+        body: "The methane detection capabilities have been crucial for our environmental compliance monitoring.",
     },
     {
-        name: "Jenny",
-        username: "@jenny",
-        body: "I'm at a loss for words. This is amazing. I love it.",
+        name: "Dr. Aisha Patel",
+        username: "@aisha_water",
+        body: "Water resource management has never been this precise. RIFFAI's insights are invaluable.",
     },
     {
-        name: "James",
-        username: "@james",
-        body: "I'm at a loss for words. This is amazing. I love it.",
+        name: "Robert Kim",
+        username: "@robert_climate",
+        body: "The real-time environmental alerts have saved our operations millions in potential climate-related losses.",
     },
 ];

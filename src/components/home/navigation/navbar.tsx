@@ -16,16 +16,16 @@ const Navbar = async () => {
                         <Link href="/" className="flex items-center gap-2">
                             <Icons.logo className="w-8 h-8" />
                             <span className="text-lg font-medium">
-                                Astra
+                                RIFFAI
                             </span>
                         </Link>
                     </div>
                     <nav className="hidden md:block absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
                         <ul className="flex items-center justify-center gap-8">
-                            <Link href="#" className="hover:text-foreground/80 text-sm">Pricing</Link>
-                            <Link href="#" className="hover:text-foreground/80 text-sm">About</Link>
-                            <Link href="#" className="hover:text-foreground/80 text-sm">Features</Link>
-                            <Link href="#" className="hover:text-foreground/80 text-sm">Blog</Link>
+                            <Link href="#pricing" className="hover:text-foreground/80 text-sm">Pricing</Link>
+                            <Link href="#team" className="hover:text-foreground/80 text-sm">Team</Link>
+                            <Link href="#projects" className="hover:text-foreground/80 text-sm">Projects</Link>
+                            <Link href="#contact" className="hover:text-foreground/80 text-sm">Contact</Link>
                         </ul>
                     </nav>
                     <div className="flex items-center gap-4">
@@ -37,7 +37,7 @@ const Navbar = async () => {
                                     Login
                                 </Link>
                                 <Link href="/sign-up" className={buttonVariants({ size: "sm", className: "hidden md:flex" })}>
-                                    Start free trial
+                                    Explore Demo
                                 </Link>
                             </>
                         )}
